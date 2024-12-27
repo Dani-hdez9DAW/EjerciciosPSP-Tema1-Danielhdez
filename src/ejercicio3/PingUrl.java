@@ -4,7 +4,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.regex.Pattern;
-
+//@Author: Daniel Hernandez
+//Ejercicio 3 Practica : Realizar varios comandos de red,en los que el usuario elige el comando a ejecutar.
 public class PingUrl {
     private static final int NUMERO_PING = 4;
     private static Scanner sc;

@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 //@Author: Daniel Hernandez
+//Ejercicio 1 a)Directorio actual
 public class DirectorioActual {
     private static String[] obtenerSo() {
         String[] comand;

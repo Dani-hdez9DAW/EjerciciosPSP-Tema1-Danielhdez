@@ -2,7 +2,8 @@ package ejercicio1;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-
+//@Author: Daniel Hernandez
+//Ejercicio 1 c)La fecha de hoy
 public class CurrentDate {
     private static String[] obtenerSo() {
         String[] comand;

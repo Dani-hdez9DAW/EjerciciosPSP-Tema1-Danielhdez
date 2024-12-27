@@ -2,7 +2,8 @@ package ejercicio1;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-
+//@Author: Daniel Hernandez
+//Ejercicio 1 b)Informacion del sistema
 public class SystemInfo {
     private static String[] obtenerSo() {
         String[] comand;

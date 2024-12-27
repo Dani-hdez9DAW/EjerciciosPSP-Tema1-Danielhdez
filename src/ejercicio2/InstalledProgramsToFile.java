@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
+//@Author: Daniel Hernandez
+//Ejercicio 2 b)(Abrir desde EjerciciosPSP-Tema1-Danielhdez,para que el fichero se guarde en la carpeta ficheros)
 public class InstalledProgramsToFile {
     private static String obtenerSo() {
         String directorio;
@@ -25,8 +27,8 @@ public class InstalledProgramsToFile {
              PrintWriter pw = new PrintWriter(fr)) {
             if (listOfFiles != null) {
                 for (File file : listOfFiles) {
-                    if (file.isFile() && file.canExecute()) {
-                        pw.println(file.getName());
+                    if (file.canExecute()) {
+                        pw.println(file.getName() + " - " + file.getAbsolutePath());
                     }
                 }
                 System.out.println("Se ha creado el fichero ejecutables.txt con los ejecutables del directorio.");

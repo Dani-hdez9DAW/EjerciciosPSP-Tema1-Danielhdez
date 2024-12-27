@@ -2,10 +2,11 @@ package ejercicio2;
 
 import java.io.File;
 
+//@Author: Daniel Hernandez
+//Ejercicio 2 a)ejecutables que estan instalados.
 public class ListarEjecutables {
     private static String obtenerSo() {
         String directorio;
-
 
         if (System.getProperty("os.name").toLowerCase().contains("win")) {
             directorio = "C:\\Program Files";
@@ -25,14 +26,14 @@ public class ListarEjecutables {
         try {
             if (listOfFiles != null) {
                 System.out.println("Ejecutables encontrados:");
-
+                int contador = 0;
                 for (File file : listOfFiles) {
-                    if (file.isFile() && file.canExecute()) {
-                        System.out.println(file.getName());
-
-
+                    if (file.canExecute()) {
+                        System.out.println(file.getName() + " - " + file.getAbsolutePath());
+                        contador++;
                     }
                 }
+                System.out.println("Total de ejecutables encontrados: " + contador);
             } else {
                 System.out.println("El directorio está vacío o no se pudo acceder.");
                 codigoSalida = 1;

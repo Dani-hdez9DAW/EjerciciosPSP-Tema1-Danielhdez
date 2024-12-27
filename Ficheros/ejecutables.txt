@@ -1,1 +1,29 @@
-desktop.ini
+Adobe - C:\Program Files\Adobe
+Android - C:\Program Files\Android
+Archivos comunes - C:\Program Files\Archivos comunes
+Common Files - C:\Program Files\Common Files
+desktop.ini - C:\Program Files\desktop.ini
+EA Games - C:\Program Files\EA Games
+Eclipse Adoptium - C:\Program Files\Eclipse Adoptium
+Electronic Arts - C:\Program Files\Electronic Arts
+Git - C:\Program Files\Git
+Intel - C:\Program Files\Intel
+Internet Explorer - C:\Program Files\Internet Explorer
+JetBrains - C:\Program Files\JetBrains
+Lenovo - C:\Program Files\Lenovo
+McAfee - C:\Program Files\McAfee
+Microsoft Office - C:\Program Files\Microsoft Office
+Microsoft Office 15 - C:\Program Files\Microsoft Office 15
+ModifiableWindowsApps - C:\Program Files\ModifiableWindowsApps
+NVIDIA Corporation - C:\Program Files\NVIDIA Corporation
+obs-studio - C:\Program Files\obs-studio
+Odoo 16.0.20241212 - C:\Program Files\Odoo 16.0.20241212
+Uninstall Information - C:\Program Files\Uninstall Information
+Windows Defender - C:\Program Files\Windows Defender
+Windows Mail - C:\Program Files\Windows Mail
+Windows Media Player - C:\Program Files\Windows Media Player
+Windows NT - C:\Program Files\Windows NT
+Windows Photo Viewer - C:\Program Files\Windows Photo Viewer
+Windows Sidebar - C:\Program Files\Windows Sidebar
+WindowsApps - C:\Program Files\WindowsApps
+WindowsPowerShell - C:\Program Files\WindowsPowerShell
